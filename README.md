@@ -10,8 +10,7 @@
 This repository is ment to extract and classify future statements from WARC files.
 It is based on the  [WARC-DL repository](https://github.com/webis-de/WARC-DL/) for extracting data from WARC-files. 
 For more information on how to run the basic WARC extraction process, refer to the repository. Here we have added
-our own regular expression based extraction in the [examples section](examples/future_extraction). Which extracts 
-single lines that contain the regular expression 
+our own regular expression based extraction which extracts single lines that contain the regular expression 
 ```regexp
 "in the future|In the future"
 ```
