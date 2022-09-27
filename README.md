@@ -18,16 +18,6 @@ single lines that contain the regular expression
 The run script of that example is modified so it takes an argument and splices the files array of the WARC-repository 
 and executes on a batch of only 1000 entries. This was done due to encountering errors in the process at some point.
 
-## Data
-### Extracted
-Some data stored from this process can be found in the [data folder](data/future_extraction/out).
-
-### Labeled
-Some of this data was labeled manually as a valid future statement (1) or a false future statement (0). In addition to 
-manually labeled data, some data was scraped from websites containing future statements. The labeled data is located in 
-the [finetuning_and_classification/data_labeled folder](finetuning_and_classification/data_labeled). While the 
-web-scraping code can be found in [webScraping](webScraping).
-
 ## Finetuning a pre - trained model
 The finetuning of a pretrained model for whole lines is defined in the 
 [finetuning_and_classification/finetuning.py file](finetuning_and_classification/finetuning.py) and for single sentences
@@ -46,8 +36,3 @@ in the data folder and candidates classified as valid future statements are stor
 ## Analysis
 The analysis applied to the candidates classified as valid future statement can be found in the 
 [analysis](analysis) folder.
-
-## Extracted Dataset
-The final, annotated and extracted data set is located in 
-[data/finalFutureStatements/annotated.csv](data/finalFutureStatements/annotated.csv) and it's 
-[Dataset card](data/finalFutureStatements/README.md) in the same folder
