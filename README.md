@@ -27,9 +27,7 @@ file. A pipeline of the model is saved upon finetuning.
 ## Classification of candidates
 Like the fine tuning process, the classification process is also defined for both whole extracted lines and only the 
 sentences containing the keyword future. They can be found in the same folder 
-[finetuning_and_classification](finetuning_and_classification). The finetuned pipeline is applied to the data extracted
-in the data folder and candidates classified as valid future statements are stored in the 
-[finalFutureStatements subfolder](data/finalFutureStatements).
+[finetuning_and_classification](finetuning_and_classification). 
 
 
 ## Analysis
